@@ -1,3 +1,5 @@
+@import "common.css";
+
 body {
     background-color: #1B9B86;
     background-image: linear-gradient(45deg, #efefef 0%, #fff 100%);
@@ -35,28 +37,6 @@ body {
     background-repeat: no-repeat;
 
     min-height: 540px;
-
-}
-
-
-
-h1,
-
-h2,
-
-h3,
-
-h4,
-
-h5,
-
-h6,
-
-p,
-
-.text-db {
-
-    color: #33475b !important;
 
 }
 
