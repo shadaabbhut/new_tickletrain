@@ -1,0 +1,404 @@
+body {
+    background-color: #1B9B86;
+    background-image: linear-gradient(45deg, #efefef 0%, #fff 100%);
+}
+
+
+
+.top-header-container {
+
+    height: 70px;
+
+    position: relative;
+
+}
+
+
+.top-header {
+
+    background-color: #f5f8fa;
+
+    border-bottom: 1px solid #cbd6e2;
+
+    z-index: 91;
+
+}
+
+
+
+.main-banner {
+
+    background: url("../images/banner.png");
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+    min-height: 540px;
+
+}
+
+
+
+h1,
+
+h2,
+
+h3,
+
+h4,
+
+h5,
+
+h6,
+
+p,
+
+.text-db {
+
+    color: #33475b !important;
+
+}
+
+
+
+.font-weight-800 {
+
+    font-weight: 800;
+
+}
+
+
+
+.font-weight-600 {
+
+    font-weight: 600;
+
+}
+
+
+
+.font-size-36 {
+
+    font-size: 36px;
+
+}
+
+
+
+.desktoplogo {
+    font-size: 24px;
+}
+
+.mobile-logo {
+    width: 90px;
+}
+
+
+.desktoplogo img {
+
+    max-width: 140px;
+
+}
+
+
+.text-orange {
+    color: #fb872b !important;
+}
+
+.bg-orange {
+    background: #fb872b;
+}
+
+
+.btn-outline-orange {
+    border-color: #fb872b;
+    background: transparent;
+    color: #000;
+}
+
+.btn-outline-orange:hover {
+    color: #fb872b;
+}
+
+
+
+.bg-light-grey {
+    background: #eee !important;
+}
+
+
+
+.bg-light-orange {
+    background: #FAC69C !important;
+}
+
+
+
+.price-section {
+
+    background: url("../images/section.jpg");
+
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+
+.card {
+
+    cursor: pointer
+}
+
+
+
+.hd {
+
+    font-size: 25px;
+
+    font-weight: 550
+}
+
+
+
+.card.hover,
+
+.card:hover {
+
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2)
+}
+
+
+
+.img {
+
+    margin-bottom: 35px;
+
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+
+    filter: drop-shadow(5px 5px 5px #222)
+}
+
+
+
+.card-title {
+
+    font-weight: 600
+}
+
+
+
+button.focus,
+
+button:focus {
+
+    outline: 0;
+
+    box-shadow: none !important
+}
+
+
+
+.ft {
+
+    margin-top: 25px
+}
+
+
+
+.chk {
+
+    margin-bottom: 5px
+}
+
+
+
+.rck {
+
+    margin-top: 20px;
+
+    padding-bottom: 15px
+}
+
+
+
+.border-top {
+
+    border-top: 1px solid #cbd6e2;
+
+}
+
+
+
+.border-bottom {
+
+    border-bottom: 1px solid #cbd6e2;
+
+}
+
+
+
+.min-height-200 {
+
+    min-height: 200px;
+
+}
+
+
+
+.carousel-indicators li {
+
+    opacity: 0.4;
+
+    cursor: pointer;
+
+}
+
+
+
+.carousel-indicators .active {
+
+    opacity: 1;
+
+}
+
+
+
+.profile-pic {
+
+    width: 50px;
+
+    height: 50px;
+
+}
+
+
+
+.card-deck .card {
+
+    min-height: 450px;
+
+}
+
+
+
+
+
+.accordion .card-header {
+
+    color: #333;
+
+    background-color: #fff;
+
+    border-color: #e4e5e7;
+
+    padding: 0;
+
+    -webkit-user-select: none;
+
+    -moz-user-select: none;
+
+    -ms-user-select: none;
+
+    user-select: none;
+
+}
+
+
+
+.accordion .card-header a {
+
+    display: block;
+
+    padding: 10px 15px;
+
+}
+
+
+
+.accordion .card-header a:after {
+
+    content: "";
+
+    position: relative;
+
+    top: 1px;
+
+    display: inline-block;
+
+    font-family: 'Glyphicons Halflings';
+
+    font-style: normal;
+
+    font-weight: 400;
+
+    line-height: 1;
+
+    -webkit-font-smoothing: antialiased;
+
+    -moz-osx-font-smoothing: grayscale;
+
+    float: right;
+
+    transition: transform .25s linear;
+
+    -webkit-transition: -webkit-transform .25s linear;
+
+}
+
+
+
+.accordion .card-header a[aria-expanded="true"] {
+
+    background-color: #eee;
+
+    /* border-bottom: 1px solid rgba(0, 0, 0, .125); */
+
+}
+
+
+
+.accordion .card-header a[aria-expanded="true"]:after {
+
+    content: "\2212";
+
+    -webkit-transform: rotate(180deg);
+
+    transform: rotate(180deg);
+    font-weight: bolder;
+
+}
+
+
+
+.accordion .card-header a[aria-expanded="false"]:after {
+
+    content: "\002b";
+
+    -webkit-transform: rotate(90deg);
+
+    transform: rotate(90deg);
+    font-weight: bolder;
+}
+
+.accordion .panel-title {
+    cursor: pointer;
+    position: relative;
+}
+
+.accordion .panel-title span {
+    position: absolute;
+    font: bold 30px Sans-Serif;
+    left: -20px;
+    top: 5px;
+}
+
+.content-section>section {
+    padding: 50px 0 !important;
+}
+
+.content-section>section:not(:last-child) {
+    border-bottom: 1px solid #cbd6e2 !important;
+}
