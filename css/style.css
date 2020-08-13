@@ -1,384 +1,250 @@
 @import "common.css";
 
 body {
-    background-color: #1B9B86;
-    background-image: linear-gradient(45deg, #efefef 0%, #fff 100%);
+  background-color: #1b9b86;
+  background-image: linear-gradient(45deg, #efefef 0%, #fff 100%);
 }
-
-
 
 .top-header-container {
+  height: 70px;
 
-    height: 70px;
-
-    position: relative;
-
+  position: relative;
 }
-
 
 .top-header {
+  background-color: #f5f8fa;
 
-    background-color: #f5f8fa;
+  border-bottom: 1px solid #cbd6e2;
 
-    border-bottom: 1px solid #cbd6e2;
-
-    z-index: 91;
-
+  z-index: 91;
 }
-
-
 
 .main-banner {
+  background: url("../images/banner.png");
 
-    background: url("../images/banner.png");
+  background-size: cover;
 
-    background-size: cover;
+  background-repeat: no-repeat;
 
-    background-repeat: no-repeat;
-
-    min-height: 540px;
-
+  min-height: 540px;
 }
-
-
 
 .font-weight-800 {
-
-    font-weight: 800;
-
+  font-weight: 800;
 }
-
-
 
 .font-weight-600 {
-
-    font-weight: 600;
-
+  font-weight: 600;
 }
-
-
 
 .font-size-36 {
-
-    font-size: 36px;
-
+  font-size: 36px;
 }
-
-
-
-.desktoplogo {
-    font-size: 24px;
-}
-
-.mobile-logo {
-    width: 90px;
-}
-
-
-.desktoplogo img {
-
-    max-width: 140px;
-
-}
-
 
 .text-orange {
-    color: #fb872b !important;
+  color: #fb872b !important;
 }
 
 .bg-orange {
-    background: #fb872b;
+  background: #fb872b;
 }
 
-
 .btn-outline-orange {
-    border-color: #fb872b;
-    background: transparent;
-    color: #000;
+  border-color: #fb872b;
+  background: transparent;
+  color: #000;
 }
 
 .btn-outline-orange:hover {
-    color: #fb872b;
+  color: #fb872b;
 }
-
-
 
 .bg-light-grey {
-    background: #eee !important;
+  background: #eee !important;
 }
-
-
 
 .bg-light-orange {
-    background: #FAC69C !important;
+  background: #fac69c !important;
 }
-
-
 
 .price-section {
+  background: url("../images/section.jpg");
 
-    background: url("../images/section.jpg");
-
-    background-repeat: no-repeat;
-
+  background-repeat: no-repeat;
 }
-
-
-
-
 
 .card {
-
-    cursor: pointer
+  cursor: pointer;
 }
-
-
 
 .hd {
+  font-size: 25px;
 
-    font-size: 25px;
-
-    font-weight: 550
+  font-weight: 550;
 }
-
-
 
 .card.hover,
-
 .card:hover {
-
-    box-shadow: 0 20px 40px rgba(0, 0, 0, .2)
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
 }
-
-
 
 .img {
+  margin-bottom: 35px;
 
-    margin-bottom: 35px;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
 
-    -webkit-filter: drop-shadow(5px 5px 5px #222);
-
-    filter: drop-shadow(5px 5px 5px #222)
+  filter: drop-shadow(5px 5px 5px #222);
 }
-
-
 
 .card-title {
-
-    font-weight: 600
+  font-weight: 600;
 }
-
-
 
 button.focus,
-
 button:focus {
+  outline: 0;
 
-    outline: 0;
-
-    box-shadow: none !important
+  box-shadow: none !important;
 }
-
-
 
 .ft {
-
-    margin-top: 25px
+  margin-top: 25px;
 }
-
-
 
 .chk {
-
-    margin-bottom: 5px
+  margin-bottom: 5px;
 }
-
-
 
 .rck {
+  margin-top: 20px;
 
-    margin-top: 20px;
-
-    padding-bottom: 15px
+  padding-bottom: 15px;
 }
-
-
 
 .border-top {
-
-    border-top: 1px solid #cbd6e2;
-
+  border-top: 1px solid #cbd6e2;
 }
-
-
 
 .border-bottom {
-
-    border-bottom: 1px solid #cbd6e2;
-
+  border-bottom: 1px solid #cbd6e2;
 }
-
-
 
 .min-height-200 {
-
-    min-height: 200px;
-
+  min-height: 200px;
 }
-
-
 
 .carousel-indicators li {
+  opacity: 0.4;
 
-    opacity: 0.4;
-
-    cursor: pointer;
-
+  cursor: pointer;
 }
-
-
 
 .carousel-indicators .active {
-
-    opacity: 1;
-
+  opacity: 1;
 }
-
-
 
 .profile-pic {
+  width: 50px;
 
-    width: 50px;
-
-    height: 50px;
-
+  height: 50px;
 }
-
-
 
 .card-deck .card {
-
-    min-height: 450px;
-
+  min-height: 450px;
 }
-
-
-
-
 
 .accordion .card-header {
+  color: #333;
 
-    color: #333;
+  background-color: #fff;
 
-    background-color: #fff;
+  border-color: #e4e5e7;
 
-    border-color: #e4e5e7;
+  padding: 0;
 
-    padding: 0;
+  -webkit-user-select: none;
 
-    -webkit-user-select: none;
+  -moz-user-select: none;
 
-    -moz-user-select: none;
+  -ms-user-select: none;
 
-    -ms-user-select: none;
-
-    user-select: none;
-
+  user-select: none;
 }
-
-
 
 .accordion .card-header a {
+  display: block;
 
-    display: block;
-
-    padding: 10px 15px;
-
+  padding: 10px 15px;
 }
-
-
 
 .accordion .card-header a:after {
+  content: "";
 
-    content: "";
+  position: relative;
 
-    position: relative;
+  top: 1px;
 
-    top: 1px;
+  display: inline-block;
 
-    display: inline-block;
+  font-family: "Glyphicons Halflings";
 
-    font-family: 'Glyphicons Halflings';
+  font-style: normal;
 
-    font-style: normal;
+  font-weight: 400;
 
-    font-weight: 400;
+  line-height: 1;
 
-    line-height: 1;
+  -webkit-font-smoothing: antialiased;
 
-    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 
-    -moz-osx-font-smoothing: grayscale;
+  float: right;
 
-    float: right;
+  transition: transform 0.25s linear;
 
-    transition: transform .25s linear;
-
-    -webkit-transition: -webkit-transform .25s linear;
-
+  -webkit-transition: -webkit-transform 0.25s linear;
 }
-
-
 
 .accordion .card-header a[aria-expanded="true"] {
+  background-color: #eee;
 
-    background-color: #eee;
-
-    /* border-bottom: 1px solid rgba(0, 0, 0, .125); */
-
+  /* border-bottom: 1px solid rgba(0, 0, 0, .125); */
 }
-
-
 
 .accordion .card-header a[aria-expanded="true"]:after {
+  content: "\2212";
 
-    content: "\2212";
+  -webkit-transform: rotate(180deg);
 
-    -webkit-transform: rotate(180deg);
-
-    transform: rotate(180deg);
-    font-weight: bolder;
-
+  transform: rotate(180deg);
+  font-weight: bolder;
 }
 
-
-
 .accordion .card-header a[aria-expanded="false"]:after {
+  content: "\002b";
 
-    content: "\002b";
+  -webkit-transform: rotate(90deg);
 
-    -webkit-transform: rotate(90deg);
-
-    transform: rotate(90deg);
-    font-weight: bolder;
+  transform: rotate(90deg);
+  font-weight: bolder;
 }
 
 .accordion .panel-title {
-    cursor: pointer;
-    position: relative;
+  cursor: pointer;
+  position: relative;
 }
 
 .accordion .panel-title span {
-    position: absolute;
-    font: bold 30px Sans-Serif;
-    left: -20px;
-    top: 5px;
+  position: absolute;
+  font: bold 30px Sans-Serif;
+  left: -20px;
+  top: 5px;
 }
 
-.content-section>section {
-    padding: 50px 0 !important;
+.content-section > section {
+  padding: 50px 0 !important;
 }
 
-.content-section>section:not(:last-child) {
-    border-bottom: 1px solid #cbd6e2 !important;
+.content-section > section:not(:last-child) {
+  border-bottom: 1px solid #cbd6e2 !important;
 }

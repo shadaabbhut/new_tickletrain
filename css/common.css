@@ -19,3 +19,21 @@ p,
 .cursor-pointer {
     cursor: pointer;
 }
+
+
+
+
+.desktoplogo {
+    font-size: 24px;
+}
+
+.mobile-logo {
+    width: 90px;
+}
+
+
+.desktoplogo img {
+
+    max-width: 140px;
+
+}
