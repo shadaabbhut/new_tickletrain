@@ -20,9 +20,6 @@ p,
     cursor: pointer;
 }
 
-
-
-
 .desktoplogo {
     font-size: 24px;
 }
@@ -37,3 +34,19 @@ p,
     max-width: 140px;
 
 }
+
+.box-shadow-bottom {
+    box-shadow: 0 1px 5px #dee2e6;
+}
+
+/* Modal Css */
+.modal-header .close {
+    width: 40px;
+    height: 40px;
+    opacity: 1;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+/* Modal Css End */
