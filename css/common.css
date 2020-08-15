@@ -16,6 +16,10 @@ p,
     color: #33475b !important;
 }
 
+.text-orange {
+    color: #fb872b !important;
+}
+
 .cursor-pointer {
     cursor: pointer;
 }

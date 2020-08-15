@@ -1,39 +1,39 @@
 @import "common.css";
 
 body {
-    background-color: #F7F7F7;
-    background-image: linear-gradient(45deg, #efefef 0%, #F7F7F7 100%);
+  background-color: #f7f7f7;
+  background-image: linear-gradient(45deg, #efefef 0%, #f7f7f7 100%);
 }
 
 .card-item {
-    height: 100%;
+  height: 100%;
 }
 
 .card-item .card-header {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .card-item .link-icon {
-    height: 30px;
-    width: 30px;
-    text-align: center;
-    line-height: 30px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  line-height: 30px;
 }
 
 .card-item .card-header:hover .link-icon {
-    background-color: #EEEFF1;
+  background-color: #eeeff1;
 }
 
 .card-menu-title {
-    color: #A8ADB8;
-    font-size: 18px;
+  color: #a8adb8;
+  font-size: 18px;
 }
 
 .card-menu-item:hover {
-    background-color: #F6F7F8;
+  background-color: #f6f7f8;
 }
 
 .card-menu-item-icon {
-    color: #18C7C9;
-    font-size: 16px;
+  color: #18c7c9;
+  font-size: 16px;
 }
