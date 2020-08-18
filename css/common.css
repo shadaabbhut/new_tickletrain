@@ -20,6 +20,10 @@ p,
     color: #fb872b !important;
 }
 
+.bg-orange {
+    background: #fb872b !important;
+}
+
 .cursor-pointer {
     cursor: pointer;
 }

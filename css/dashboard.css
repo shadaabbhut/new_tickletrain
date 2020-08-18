@@ -37,3 +37,64 @@ body {
   color: #18c7c9;
   font-size: 16px;
 }
+
+.schedule-options {
+  left: -40px;
+}
+
+.schedule-options .schedule-run {
+  height: 25px;
+  width: 25px;
+  margin-right: 5px;
+  background: #fff;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  line-height: 25px;
+  cursor: pointer;
+}
+
+.schedule-options .schedule-n {
+  background: #4fbf86;
+}
+
+.schedule-options .schedule-1h {
+  background: #46b29c;
+}
+
+.schedule-options .schedule-2h {
+  background: #30b79b;
+}
+
+.schedule-options .schedule-3h {
+  background: #87c0eb;
+}
+
+.schedule-options .schedule-1d {
+  background: #5cabe3;
+}
+
+.schedule-options .schedule-2d {
+  background: #327fb4;
+}
+
+.schedule-options .schedule-3d {
+  background: #3691cf;
+}
+
+.schedule-options .schedule-1w {
+  background: #2981bd;
+}
+
+.schedule-options .schedule-2w {
+  background: #efb899;
+}
+
+.schedule-options .schedule-1m {
+  background: #e49a69;
+}
+
+.schedule-options .schedule-edit {
+  background: #eee;
+  color: #000;
+}

@@ -15,11 +15,13 @@
     <!-- Bootstrap CSS -->
 
     <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v4.7.0/css/all.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
     <link id="effect" rel="stylesheet" type="text/css" media="all" href="webslidemenu/dropdown-effects/fade-down.css" />
 
-
+    <link rel="stylesheet" href="css/bootstrap-datetimepicker.css">
 
     <link rel="stylesheet" type="text/css" media="all" href="webslidemenu/webslidemenu.css" />
 
@@ -363,11 +365,11 @@
                             <!--Table head-->
                             <thead>
                                 <tr>
-                                    <th class="th-lg"><a>First Name</a></th>
-                                    <th class="th-lg"><a>Last Name</a></th>
-                                    <th class="th-lg"><a href="">Username</a></th>
-                                    <th class="th-lg"><a href="">Username</a></th>
-                                    <th class="th-lg"><a href="">Username</a></th>
+                                    <th class="th-lg"><a>Recipient</a></th>
+                                    <th class="th-lg"><a>Sender</a></th>
+                                    <th class="th-lg"><a href="">Subject</a></th>
+                                    <th class="th-lg"><a href="">Tickle</a></th>
+                                    <th class="th-lg text-center"><a href="">Schedule</a></th>
                                     <th class="th-lg"><a href="">Actions</a></th>
                                 </tr>
                             </thead>
@@ -382,7 +384,31 @@
                                     <td>Otto</td>
                                     <td>@mdo</td>
                                     <td>Mark</td>
-                                    <td>Otto</td>
+                                    <td>
+                                        <div class="schedule-action position-relative">
+                                            <div class="schedule-icon text-center">
+                                                <span>08-24-2020 12:12PM</span> <i
+                                                    class="fa fa-edit cursor-pointer"></i>
+                                            </div>
+
+                                            <div class="d-none schedule-options mt-2 position-absolute">
+                                                <div class="rounded-circle schedule-run schedule-n">N</div>
+                                                <div class="rounded-circle schedule-run schedule-1h">1H</div>
+                                                <div class="rounded-circle schedule-run schedule-2h">2H</div>
+                                                <div class="rounded-circle schedule-run schedule-3h">3H</div>
+                                                <div class="rounded-circle schedule-run schedule-1d">1D</div>
+                                                <div class="rounded-circle schedule-run schedule-2d">2D</div>
+                                                <div class="rounded-circle schedule-run schedule-3d">3D</div>
+                                                <div class="rounded-circle schedule-run schedule-1w">1W</div>
+                                                <div class="rounded-circle schedule-run schedule-2w">2W</div>
+                                                <div class="rounded-circle schedule-run schedule-1m">1M</div>
+                                                <a href="#" class="rounded-circle schedule-run schedule-edit"
+                                                    data-toggle="modal" data-target="#modal">
+                                                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </td>
                                     <td>
                                         <div class="actions">
                                             <a class="mr-2 text-orange" href="">
@@ -474,7 +500,31 @@
                                     <td>Otto</td>
                                     <td>@mdo</td>
                                     <td>Mark</td>
-                                    <td>Otto</td>
+                                    <td>
+                                        <div class="schedule-action position-relative">
+                                            <div class="schedule-icon text-center">
+                                                <span>08-24-2020 12:12PM</span> <i
+                                                    class="fa fa-edit cursor-pointer"></i>
+                                            </div>
+
+                                            <div class="d-none schedule-options mt-2 position-absolute">
+                                                <div class="rounded-circle schedule-run schedule-n">N</div>
+                                                <div class="rounded-circle schedule-run schedule-1h">1H</div>
+                                                <div class="rounded-circle schedule-run schedule-2h">2H</div>
+                                                <div class="rounded-circle schedule-run schedule-3h">3H</div>
+                                                <div class="rounded-circle schedule-run schedule-1d">1D</div>
+                                                <div class="rounded-circle schedule-run schedule-2d">2D</div>
+                                                <div class="rounded-circle schedule-run schedule-3d">3D</div>
+                                                <div class="rounded-circle schedule-run schedule-1w">1W</div>
+                                                <div class="rounded-circle schedule-run schedule-2w">2W</div>
+                                                <div class="rounded-circle schedule-run schedule-1m">1M</div>
+                                                <a href="#" class="rounded-circle schedule-run schedule-edit"
+                                                    data-toggle="modal" data-target="#modal">
+                                                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </td>
                                     <td>
                                         <div class="actions">
                                             <a class="mr-2 text-orange" href="">
@@ -699,9 +749,43 @@
             </div>
 
         </footer>
+
+
+        <!-- Modal Start -->
+        <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="modalLabel">Select Date and Time</h4>
+                        <div type="button" class="bg-orange close p-1 text-center rounded-circle text-white visible"
+                            data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label>Date and time</label>
+                                    <input type="text" class="form-control datetimepicker-input" id="datetimepicker1"
+                                        data-toggle="datetimepicker" data-target="#datetimepicker1" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal End -->
     </section>
     <script type="text/javascript" src="vendor/jquery/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="./vendor/bootstrap/bootstrap.min.js"></script>
+    <script src="js/moment-with-locales.js"></script>
+    <script src="js/bootstrap-datetimepicker.js"></script>
     <script type="text/javascript" src="js/dashboard.js"></script>
 </body>
 
