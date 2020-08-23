@@ -32,6 +32,10 @@ p,
     font-size: 24px;
 }
 
+.text-size-14 {
+    font-size: 14px;
+}
+
 .mobile-logo {
     width: 90px;
 }
